@@ -1,0 +1,354 @@
+﻿body {
+    background-color: #FFFFFF;
+    font-family: Didot, Arial;
+    font-size: 1.2vw;
+}
+
+a {
+    color: #794d60;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.header-text {
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size:5.5vw;
+    color: #330033;
+    text-align: center;
+    margin-bottom:0;
+}
+
+.sub-heading {
+    text-align: center;
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size:4vw;
+    color: #330033;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+.tiny-header {
+    text-align: center;
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size: 2vw;
+    color: #330033;
+    margin-bottom:0;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.text-block {
+    position: absolute;
+    bottom: 80px;
+    right: 90px;
+    left: 90px;
+    background-color: rgb(238,220,220,0.3);
+    color: #330033;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-width: 1px;
+    border-color: white;
+    border-style: double;
+}
+
+.about-me-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}
+
+.column-2 {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 475px;
+    margin: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: #eedcdc;
+    line-height: 2;
+}
+    .column-2:hover {
+        background-color: white;
+        color: #794d60;
+    }
+    
+.large-profile {
+    background: url('gradpics/GRAD_PIC_3.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-style:none;
+    
+    
+}
+
+.column-3 {
+    float: left;
+    width: 23%;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    height: 310px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    background-color: #f6eeee;
+    line-height: 2;
+    text-align: center;
+    border-style: double;
+    border-width: 0.25;
+    border-color: #330033;
+}
+
+.flex-container {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}
+
+.cell {
+    width: 100%;
+    margin: 0px;
+    height: 250px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:40px;
+    text-align: center;
+    border-style: double;
+    border-width: 0.25;
+    border-color: #330033;
+    overflow:hidden;
+    object-fit:cover;
+    font-size:2vw;
+
+}
+
+.prof-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}
+
+.prof-ex-cells {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 710px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    background-color: #f6eeee;
+    line-height: 2;
+    border-style: double;
+    border-width: 0.25;
+    border-color: #330033;
+    padding-bottom: 20px;
+}
+
+.a {
+    list-style-type: circle;
+}
+
+.prof-head-txt {
+    
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size: 1.7vw;
+    color: #330033;
+    margin-bottom: 0;
+    margin-top:0;
+    line-height: normal;
+}
+.prof-dates {
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size: 1.4vw;
+    color: #330033;
+    margin-bottom: 0;
+}
+
+.edu-container {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+    border-style:double;
+    border-width:0.3px;
+    border-color:black;
+    width:100%;
+
+}
+
+.edu-background-cell {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 170px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    line-height: 0;
+    margin-bottom: 0;
+    
+}
+
+.edu-title-cells {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 170px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    line-height: 0;
+    font-family: SignPainter, savoye LET, Didot, Arial;
+    font-size: 2vw;
+    color: #330033;
+    margin-bottom: 0;
+    border-right-style: double;
+    border-width: 0.3px;
+    border-color: black;
+}
+.edu-info-cells {
+    float: left;
+    width: 60%;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 170px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    line-height: 2;
+    
+}
+
+
+/* QUOTATION*/
+
+.quote-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.column-quote {
+    width: 90%;
+    height: 255px;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    margin: auto;
+    margin-top:30
+    margin-bottom: 30px;
+    border: 5px double black;
+    background:color;
+}
+
+.quote {
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #794d60;
+}
+.quote-author {
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #794d60;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #e7d0d0;
+    justify-content: normal;
+    padding: 0px 10px 10px 100px;
+    width:100%;
+}
+
+.contact-me-style {
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    font-size: 1.5vw;
+    padding-bottom:20px;
+
+}
+
+/*CONTACT ME PAGE*/
+
+.contact-page-container {
+    position: relative;
+}
+
+/* CERTIFICATION PAGE*/
+
+.certification-main-container {
+    position: relative;
+}
+
+.cert-container {
+    display: flex;
+    background-color: #e7d0d0;
+    justify-content: normal;
+    padding: 0px 10px 10px 100px;
+    width: 100%;
+    text-align:center;
+}
+
+.systems-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 0px 10px 10px 10px;
+    width:100%;
+   
+}
+.system-column {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 1100px;
+    margin: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    line-height: 2;
+}
+
+    .system-column:hover {
+        background-color: white;
+        color: #794d60;
+    }
+
+.systems-pic {
+    background: url('calendar.jpg');
+    background-size: cover;
+    background-position: center;
+    border-style: none;
+}
